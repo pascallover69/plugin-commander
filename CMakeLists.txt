@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.6)
-project(discordpp-plugin-template)
+project(discordpp-plugin-commander)
 
 set(CMAKE_CXX_STANDARD 14)
 
 ###################
 
-list(PREPEND ALL_DISCORDPP_PLUGINS discordpp::PluginTemplate
-list(APPEND ALL_DISCORDPP_LIBRARIES discordpp-plugin-template)
+list(PREPEND ALL_DISCORDPP_PLUGINS discordpp::PluginCommander
+list(APPEND ALL_DISCORDPP_LIBRARIES discordpp-plugin-commander)
 set(ALL_DISCORDPP_LIBRARIES ${ALL_DISCORDPP_LIBRARIES} PARENT_SCOPE)
 set(ALL_DISCORDPP_PLUGINS ${ALL_DISCORDPP_PLUGINS} PARENT_SCOPE)
 
